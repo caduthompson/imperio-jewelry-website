@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Império - Contato</title>
+    <link rel="shortcut icon" href="img/Favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1><img src="img/imperio.png" alt="Comendador Logo in white."></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produto.html">Jóias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+  </header>
+
+    <main>
+      <form>
+        <label for="firstname">Nome</label>
+        <input type="text" id="firtname" class="input-standard" required />
+
+        <label for="surname">Sobrenome</label>
+        <input type="text" id="surname" class="input-standard" required />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="input-standard"
+          required
+          placeholder="seuemail@dominio.com"
+        />
+
+        <label for="phone">Telefone</label>
+        <input
+          type="tel"
+          id="phone"
+          class="input-standard"
+          required
+          placeholder="XXXXX-XXXX"
+        />
+
+        <label for="message">Mensagem</label>
+        <textarea
+          cols="70"
+          rows="10"
+          id="message"
+          class="input-standard"
+          required
+        >
+        </textarea>
+        <input type="submit" value="Enviar" class="button_send" />
+      </form>
+    </main>
+
+    <footer>
+      <img src="img/imperio_black.png" alt="Comendador Logo in black.">
+      <p class="copyright">&copy; Copyright - Comendador José Alfredo Medeiros</p>
+    </footer>
+  </body>
+</html>

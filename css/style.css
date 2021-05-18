@@ -1,0 +1,254 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+	align-items: center;
+	justify-items: center;
+	display: grid;
+}
+
+nav {
+	padding: 30px 0 0 0;
+	position: relative;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'Engravers','Helvetica','styrene-regular';
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.banner {
+	position: relative;
+}	
+
+.banner-image{
+	box-sizing: border-box;
+	width: 100%;
+	height: 500px;
+}
+
+.banner p {
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	top: 100px;
+	text-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+	margin: 100px 10%;
+	max-width: 70%;
+}
+
+.about {
+	padding: 3em 0;
+	background: #000;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.about-title, .showroom-title, .showroom-item{
+	font-size: 40px;
+	font-family: 'Walbaum','Garamond','Baskerville','Baskerville Old Face';
+	text-align: center;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.about p {
+	margin: 0 0 1em;
+	line-height: 1.6em;
+}
+
+.about strong {
+	font-weight: bold;
+}
+
+.about em {
+	font-style: italic;
+}
+
+.about-image {
+	width: 300px;
+	float: left;
+	margin: 10px 40px;
+}
+
+.video {
+	background: #fff;
+	width: 100%;
+	padding: 3em 0;
+}
+
+.video-title {
+	color: #000;
+	font-size: 40px;
+	font-family: 'Walbaum','Garamond','Baskerville','Baskerville Old Face';
+	text-align: center;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.video p {
+	color: #000;
+	width: 940px;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+.video-link {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 20px;
+  width: 40%;
+}
+
+.showrooms {
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.showroom {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+
+.showroom-item{
+	font-size: 30px;
+	font-family: 'Walbaum','Garamond','Baskerville','Baskerville Old Face';
+	text-align: center;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.showroom:hover .showroom-item {
+	font-size: 34px;
+}
+
+.product {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.product li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+}
+
+.product li:hover {
+	border-color: #C78C19;
+}
+
+.product li:hover .product-item {
+	font-size: 34px;
+}
+
+.product-item {
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.product-description {
+	font-size: 18px;
+}
+
+.product-price {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+form {
+	display: block;
+	width: 940px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	text-align: left;
+
+}
+
+form label, form legend {
+	display: block;
+	font-family: 'Engravers','Helvetica','styrene-regular';
+	font-size: 1.1em;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.input-standard {
+
+	display: block;
+	margin: 0 auto;
+	padding: 10px 10px;
+	width: 40%;
+
+}
+
+.button_send{
+	width:20%;
+	padding: 5px 0;
+	background: #000;
+	color: white;
+	border: 2px solid #fff;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 10px auto	;
+
+}
+
+.button_send:hover {
+	border-color: #000;
+	background-color: #fff;
+	color: #000;
+}
+
+footer {
+	text-align: center;
+	background: #FFFFFF;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
